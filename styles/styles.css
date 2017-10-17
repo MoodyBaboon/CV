@@ -878,6 +878,10 @@ canvas {
     animation: wave 9s 0.1s infinite linear; 
 }
 
+.subject {
+    font-size: 15px;
+}
+
 /* Evening */
 
 .grass1 { 
@@ -2977,6 +2981,7 @@ canvas {
 
 .myFoto {
 	background: url(../images/myFoto.png);
+    background-size: contain;
 	position: absolute;
 	right: 36%;	
 	top: 30px;
@@ -3022,14 +3027,14 @@ canvas {
 }
 
 .string14 {
-    -webkit-animation-delay: 15s;
-	animation-delay: 15s;
+    -webkit-animation-delay: 14s;
+	animation-delay: 14s;
 }
 .string15 {
     -webkit-animation: animFadeIn 0.5s ease both;
 	animation: animFadeIn 0.5s ease both;
-    -webkit-animation-delay: 16s;
-	animation-delay: 16s;
+    -webkit-animation-delay: 15s;
+	animation-delay: 15s;
 	height: auto;
 }
 
@@ -3039,8 +3044,8 @@ canvas {
 }
 
 .string17 {
-    -webkit-animation-delay: 17s;
-	animation-delay: 17s;
+    -webkit-animation-delay: 16s;
+	animation-delay: 16s;
 }
 
 
