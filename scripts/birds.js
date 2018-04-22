@@ -1,3 +1,4 @@
+var birdsId;
 function birdsOn(){
   var Bird = {
   def: function(n, m, s) {
@@ -548,7 +549,7 @@ function draw() {
   run();
 
   function run() {
-    var birdsId = window.requestAnimationFrame(run);
+    birdsId = window.requestAnimationFrame(run);
     draw();
   }
 
