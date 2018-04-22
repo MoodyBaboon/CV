@@ -149,6 +149,7 @@ window.onload = function () {
             for(var i = 0; i < eveElements.length; i++) {
                 eveElements[i].remove();
             } 
+            birdsOff();
         }, 4000); 
         setTimeout(function(){               
             for(var i = 0; i < nightElements.length; i++) {
