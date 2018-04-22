@@ -548,7 +548,7 @@ function draw() {
   run();
 
   function run() {
-    window.requestAnimationFrame(run);
+    var birdsId = window.requestAnimationFrame(run);
     draw();
   }
 
