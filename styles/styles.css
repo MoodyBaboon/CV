@@ -741,6 +741,10 @@ canvas {
 	margin: 200px 0 0 0;
 }
 
+.cvWrapperDay h3 {
+    margin: 10px;
+}
+
 .cvWrapperDay a {
 	color: #444;
     -webkit-transition: all 0.4s;
